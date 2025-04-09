@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -26,14 +26,29 @@
       border-radius: 10px;
       margin-bottom: 30px;
       flex-wrap: wrap;
+      text-align: center;
     }
 
     header img {
-      height: 50px;
-      width: 50px;
+      height: 70px;
+      width: 70px;
       object-fit: cover;
-      border-radius: 50%; /* 👈 Makes it circular */
+      border-radius: 50%;
       border: 2px solid white;
+    }
+
+    .college-name {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+    }
+
+    .cse-center {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 5px;
     }
 
     h1 {
@@ -71,6 +86,11 @@
 
     ul {
       padding-left: 20px;
+      text-align: justify;
+    }
+
+    h2 {
+      color: #d2691e;
     }
   </style>
 </head>
@@ -78,10 +98,10 @@
 
   <!-- 🔼 Header with circular logo -->
   <header>
-    <img src="logo.png"  >
+    <img src="logo1.png" alt="College Logo">
     <div>
-      <div><strong>Bhoj Reddy Engineering College for Women</strong></div>
-      <div>CSE Department</div>
+      <div class="college-name">Bhoj Reddy Engineering College for Women</div>
+      <div class="cse-center">CSE Department</div>
     </div>
   </header>
 
@@ -96,10 +116,10 @@
 
   <p><strong>Origin:</strong> The African Tulip Tree originates from equatorial Africa, particularly from countries like Ghana, Uganda, Kenya, and Angola.</p>
 
-  <h2>📊 Classification:</h2>
+  <h2>Classification:</h2>
   <p>The African Tulip Tree belongs to the kingdom Plantae, the family Bignoniaceae, and the order Lamiales. It can grow up to 25 meters tall and is recognized for its flame-colored blossoms and umbrella-shaped canopy.</p>
 
-  <h2>💡 Interesting Facts:</h2>
+  <h2> Interesting Facts:</h2>
   <ul>
     <li><strong>Flame of the Forest:</strong> Its bright orange flowers resemble flames, making it a spectacular sight in full bloom.</li>
     <li><strong>Natural Water Guns:</strong> The flower buds contain water, which children often use to squirt at each other for fun.</li>
@@ -107,15 +127,18 @@
     <li><strong>Medicinal Uses:</strong> In traditional medicine, extracts from its bark and leaves are used to treat wounds, infections, and inflammations.</li>
   </ul>
 
-  <h2>In Connection with India:</h2>
+  <h2> In Connection with India:</h2>
   <p>The African Tulip Tree is commonly planted along Indian streets, parks, and gardens due to its rapid growth and lush, shade-providing canopy. Though non-native, it has become an integral part of the tropical landscape.</p>
 
-  <h2>🌱 Health & Environmental Benefits:</h2>
+  <h2> Health & Environmental Benefits:</h2>
   <ul>
     <li><strong>Soil Improvement:</strong> Its leaves decompose quickly, enriching the soil with nutrients.</li>
     <li><strong>Air Purifier:</strong> Helps in absorbing carbon dioxide and releasing oxygen.</li>
     <li><strong>CO₂ Emission Note:</strong> Although it provides good shade, the African Tulip Tree has been observed to release certain volatile compounds and can emit more CO₂ at night compared to native species. Prolonged sitting directly under the tree, especially in humid climates, may be uncomfortable for sensitive individuals.</li>
   </ul>
+<footer style="text-align: center; font-size: 14px; color: #666; margin-top: 50px;">
+  <em>Akhila Jeripothula, II CSE A</em>
+</footer>
 
 </body>
 </html>
